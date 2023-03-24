@@ -98,6 +98,44 @@
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="mira_stop()" onmouseover="mira_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <!-- <div class="two" id='mira_image'> -->
+                  <!-- <img src='images/FedPEFT.JPG' width="160"></div> -->
+                <img src='images/bear.JPG' width="160">
+              </div>
+              <script type="text/javascript">
+                function mira_start() {
+                  document.getElementById('mira_image').style.opacity = "1";
+                }
+
+                function mira_stop() {
+                  document.getElementById('mira_image').style.opacity = "0";
+                }
+                mira_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2303.13505.pdf">
+                <papertitle>A Large-scale Study of Spatiotemporal Representation Learning with a New Benchmark on Action Recognition</papertitle>
+              </a>
+              <br>
+              Andong Deng*,
+              <strong>Taojiannan Yang*</strong>,
+              Chen Chen.
+              <br>
+              <em>arXiv</em>, 2023
+              <br>
+              <a href="https://arxiv.org/pdf/2303.13505.pdf">paper</a> &nbsp/&nbsp
+              <a href="https://github.com/AndongDeng/BEAR">code and data</a>
+              <p></p>
+              <p>
+                A new comprehensive action recognition benchmark to evaluate spatiotemporal representation learning from various perspectives.
+              </p>
+            </td>
+          </tr>
 				
           <tr onmouseout="mira_stop()" onmouseover="mira_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
